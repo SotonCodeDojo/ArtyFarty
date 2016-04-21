@@ -5,6 +5,7 @@ import java.awt.Insets;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
+@SuppressWarnings("serial")
 public class DisplayMeme extends JFrame {
 
 	public DisplayMeme(Meme meme) {
@@ -21,6 +22,7 @@ public class DisplayMeme extends JFrame {
 		setContentPane(new JPanel(){
 			@Override
 			public void paint(Graphics g){
+				super.paint(g);
 				g.drawImage(image, 0, 0, null);
 			}
 		});

@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
     	
-    	// First get the input like this
+    	// First get the input from the user like this
     	String input = GetInput.getInput();
     	
     	
