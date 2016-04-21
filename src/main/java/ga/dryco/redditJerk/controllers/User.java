@@ -1,12 +1,12 @@
 package ga.dryco.redditJerk.controllers;
 
+import java.util.List;
+import java.util.Objects;
+
 import ga.dryco.redditJerk.Reddit;
 import ga.dryco.redditJerk.RedditApi;
 import ga.dryco.redditJerk.Sorting;
 import ga.dryco.redditJerk.datamodels.T2Data;
-
-import java.util.List;
-import java.util.Objects;
 
 
 public class User extends T2Data {

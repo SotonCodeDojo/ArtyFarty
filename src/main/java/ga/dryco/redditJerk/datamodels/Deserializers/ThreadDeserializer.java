@@ -1,12 +1,10 @@
 package ga.dryco.redditJerk.datamodels.Deserializers;
 
-import com.google.gson.*;
+import java.lang.reflect.Type;
 
 import ga.dryco.redditJerk.controllers.RedditThread;
 import ga.dryco.redditJerk.datamodels.T1Listing;
 import ga.dryco.redditJerk.datamodels.T3;
-
-import java.lang.reflect.Type;
 
 /**
  *

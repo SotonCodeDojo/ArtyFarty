@@ -1,9 +1,5 @@
 package ga.dryco.redditJerk.datamodels;
 
-
-import com.google.gson.annotations.Expose;
-
-
 public abstract class Thing<T> {
 
     @Expose

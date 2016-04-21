@@ -1,8 +1,5 @@
 package ga.dryco.redditJerk.datamodels;
 
-
-import com.google.gson.annotations.Expose;
-
 public class JsonError {
 
     @Expose

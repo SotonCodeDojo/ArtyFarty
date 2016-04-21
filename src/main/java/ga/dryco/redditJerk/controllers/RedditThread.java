@@ -1,12 +1,12 @@
 package ga.dryco.redditJerk.controllers;
 
-import ga.dryco.redditJerk.datamodels.More;
-import ga.dryco.redditJerk.datamodels.T1;
-import ga.dryco.redditJerk.datamodels.T1Listing;
-import ga.dryco.redditJerk.datamodels.RedditThreadData;
-
 import java.util.ArrayList;
 import java.util.List;
+
+import ga.dryco.redditJerk.datamodels.More;
+import ga.dryco.redditJerk.datamodels.RedditThreadData;
+import ga.dryco.redditJerk.datamodels.T1;
+import ga.dryco.redditJerk.datamodels.T1Listing;
 
 
 public class RedditThread extends RedditThreadData {

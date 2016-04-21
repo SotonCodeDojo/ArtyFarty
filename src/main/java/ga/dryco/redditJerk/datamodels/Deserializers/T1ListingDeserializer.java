@@ -1,14 +1,12 @@
 package ga.dryco.redditJerk.datamodels.Deserializers;
 
-import com.google.gson.*;
-import ga.dryco.redditJerk.datamodels.More;
-import ga.dryco.redditJerk.datamodels.T1;
-import ga.dryco.redditJerk.datamodels.T1Listing;
-import ga.dryco.redditJerk.datamodels.T1ListingData;
-
 import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.List;
+
+import ga.dryco.redditJerk.datamodels.More;
+import ga.dryco.redditJerk.datamodels.T1Listing;
+import ga.dryco.redditJerk.datamodels.T1ListingData;
 
 /**
  * Since the Listing of "replies" returned by reddit contains Things of both types t1 and "more" we

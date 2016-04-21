@@ -1,9 +1,5 @@
 package ga.dryco.redditJerk.datamodels;
 
-
-import com.google.gson.annotations.Expose;
-import com.google.gson.annotations.SerializedName;
-
 /**
  * data of type t3 represents a Link type object,
  * all front page or subreddit Listings contain only t3 objects.

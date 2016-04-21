@@ -1,14 +1,13 @@
 package ga.dryco.redditJerk.datamodels.Deserializers;
 
-import com.google.gson.*;
+import java.lang.reflect.Type;
+import java.util.ArrayList;
+import java.util.List;
+
 import ga.dryco.redditJerk.controllers.Overview;
 import ga.dryco.redditJerk.datamodels.OverviewData;
 import ga.dryco.redditJerk.datamodels.T1;
 import ga.dryco.redditJerk.datamodels.T3;
-
-import java.lang.reflect.Type;
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Redditor's overview page contains a list of both t1 and t3 objects

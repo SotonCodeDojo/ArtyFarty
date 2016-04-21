@@ -1,13 +1,13 @@
 package ga.dryco.JerkTest;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import ga.dryco.redditJerk.FromPast;
 import ga.dryco.redditJerk.Reddit;
 import ga.dryco.redditJerk.RedditApi;
 import ga.dryco.redditJerk.Sorting;
 import ga.dryco.redditJerk.controllers.Link;
-
-import java.util.ArrayList;
-import java.util.List;
 
 
 public class TestBot {
