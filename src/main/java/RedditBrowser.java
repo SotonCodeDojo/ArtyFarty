@@ -1,10 +1,12 @@
 /**
- * {DESCRIPTION}
+ * Reddit Meme Browser
  *
  * @author Huw Jones
  * @since 21/04/2016
  */
 public class RedditBrowser {
 
-    public
+    public Meme getMemeFromSubreddit(String subreddit){
+
+    }
 }
