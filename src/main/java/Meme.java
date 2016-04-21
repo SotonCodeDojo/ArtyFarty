@@ -1,5 +1,3 @@
-package ga.dryco;
-
 import java.awt.image.BufferedImage;
 
 /**
