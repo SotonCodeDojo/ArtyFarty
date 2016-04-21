@@ -1,11 +1,16 @@
 package ga.dryco.redditJerk;
 
 
-import ga.dryco.redditJerk.controllers.*;
-
 import java.net.MalformedURLException;
 import java.util.List;
-import java.util.StringJoiner;
+
+import ga.dryco.redditJerk.controllers.Comment;
+import ga.dryco.redditJerk.controllers.Link;
+import ga.dryco.redditJerk.controllers.Overview;
+import ga.dryco.redditJerk.controllers.Post;
+import ga.dryco.redditJerk.controllers.RedditThread;
+import ga.dryco.redditJerk.controllers.Subreddit;
+import ga.dryco.redditJerk.controllers.User;
 
 
 public interface Reddit {

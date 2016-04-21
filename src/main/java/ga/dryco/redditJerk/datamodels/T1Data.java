@@ -1,11 +1,5 @@
 package ga.dryco.redditJerk.datamodels;
 
-
-
-import com.google.gson.annotations.Expose;
-import com.google.gson.annotations.SerializedName;
-
-
 /**
  * data of type t1 represents a Comment type object,
  * all comments are t1 objects

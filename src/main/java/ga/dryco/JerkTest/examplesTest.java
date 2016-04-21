@@ -1,13 +1,17 @@
 package ga.dryco.JerkTest;
 
+import java.net.MalformedURLException;
+import java.util.List;
+
 import ga.dryco.redditJerk.FromPast;
 import ga.dryco.redditJerk.Reddit;
 import ga.dryco.redditJerk.RedditApi;
 import ga.dryco.redditJerk.Sorting;
-import ga.dryco.redditJerk.controllers.*;
-
-import java.net.MalformedURLException;
-import java.util.List;
+import ga.dryco.redditJerk.controllers.Comment;
+import ga.dryco.redditJerk.controllers.Link;
+import ga.dryco.redditJerk.controllers.RedditThread;
+import ga.dryco.redditJerk.controllers.Subreddit;
+import ga.dryco.redditJerk.controllers.User;
 
 public class examplesTest {
     public static void main(String[] args) throws MalformedURLException {

@@ -1,11 +1,12 @@
 package ga.dryco.redditJerk.controllers;
 
+import java.util.List;
+
 import ga.dryco.redditJerk.FromPast;
 import ga.dryco.redditJerk.Reddit;
 import ga.dryco.redditJerk.RedditApi;
 import ga.dryco.redditJerk.Sorting;
 import ga.dryco.redditJerk.datamodels.T5Data;
-import java.util.List;
 
 
 public class Subreddit extends T5Data implements Thingy{

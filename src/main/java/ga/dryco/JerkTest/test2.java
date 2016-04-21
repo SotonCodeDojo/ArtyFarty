@@ -1,16 +1,12 @@
 package ga.dryco.JerkTest;
 
+import java.net.MalformedURLException;
+import java.util.List;
+
 import ga.dryco.redditJerk.Reddit;
 import ga.dryco.redditJerk.RedditApi;
-import ga.dryco.redditJerk.controllers.*;
-import ga.dryco.redditJerk.datamodels.PostData;
-import ga.dryco.redditJerk.datamodels.Thing;
-
-
-import java.io.IOException;
-import java.net.MalformedURLException;
-import java.util.*;
-import java.util.stream.Collectors;
+import ga.dryco.redditJerk.controllers.Comment;
+import ga.dryco.redditJerk.controllers.User;
 
 
 public class test2 {

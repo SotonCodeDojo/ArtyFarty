@@ -1,10 +1,8 @@
 package ga.dryco.redditJerk.datamodels;
 
-import javax.annotation.Generated;
-import com.google.gson.annotations.Expose;
-
-import java.util.ArrayList;
 import java.util.List;
+
+import javax.annotation.Generated;
 
 @Generated("org.jsonschema2pojo")
 public abstract class ListingData {

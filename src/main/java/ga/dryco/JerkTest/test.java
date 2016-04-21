@@ -1,17 +1,20 @@
 package ga.dryco.JerkTest;
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
 import ga.dryco.redditJerk.controllers.Overview;
 import ga.dryco.redditJerk.controllers.RedditThread;
-import ga.dryco.redditJerk.datamodels.*;
+import ga.dryco.redditJerk.datamodels.OverviewData;
+import ga.dryco.redditJerk.datamodels.RedditThreadData;
+import ga.dryco.redditJerk.datamodels.T1;
+import ga.dryco.redditJerk.datamodels.T1Data;
+import ga.dryco.redditJerk.datamodels.T1Listing;
+import ga.dryco.redditJerk.datamodels.T2;
+import ga.dryco.redditJerk.datamodels.T3;
+import ga.dryco.redditJerk.datamodels.T3Listing;
+import ga.dryco.redditJerk.datamodels.T5;
 import ga.dryco.redditJerk.datamodels.Deserializers.OverviewDeserializer;
 import ga.dryco.redditJerk.datamodels.Deserializers.T1Deserializer;
 import ga.dryco.redditJerk.datamodels.Deserializers.T3Deserializer;
 import ga.dryco.redditJerk.datamodels.Deserializers.ThreadDeserializer;
-import ga.dryco.redditJerk.datamodels.RedditThreadData;
 import ga.dryco.redditJerk.rest.OAuthClient;
-
-import java.io.IOException;
 
 
 public class test {

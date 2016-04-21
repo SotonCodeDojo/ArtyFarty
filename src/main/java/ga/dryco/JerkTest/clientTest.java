@@ -2,8 +2,7 @@ package ga.dryco.JerkTest;
 
 import ga.dryco.redditJerk.Reddit;
 import ga.dryco.redditJerk.RedditApi;
-
-import ga.dryco.redditJerk.controllers.*;
+import ga.dryco.redditJerk.controllers.User;
 
 
 

@@ -1,9 +1,5 @@
 package ga.dryco.redditJerk.datamodels;
 
-import com.google.gson.annotations.Expose;
-import com.google.gson.annotations.SerializedName;
-
-
 public class AuthData {
 
     @SerializedName("access_token")

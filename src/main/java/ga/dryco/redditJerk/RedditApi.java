@@ -1,20 +1,41 @@
 package ga.dryco.redditJerk;
 
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-import com.google.gson.JsonParser;
-import ga.dryco.redditJerk.controllers.*;
-import ga.dryco.redditJerk.datamodels.*;
-import ga.dryco.redditJerk.datamodels.Deserializers.*;
-import ga.dryco.redditJerk.exceptions.RedditJerkException;
-import ga.dryco.redditJerk.rest.OAuthClient;
-import org.apache.http.NameValuePair;
-import org.apache.http.message.BasicNameValuePair;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
+
+import ga.dryco.redditJerk.controllers.Comment;
+import ga.dryco.redditJerk.controllers.Link;
+import ga.dryco.redditJerk.controllers.Overview;
+import ga.dryco.redditJerk.controllers.Post;
+import ga.dryco.redditJerk.controllers.RedditThread;
+import ga.dryco.redditJerk.controllers.Subreddit;
+import ga.dryco.redditJerk.controllers.Thingy;
+import ga.dryco.redditJerk.controllers.User;
+import ga.dryco.redditJerk.datamodels.JsonError;
+import ga.dryco.redditJerk.datamodels.ListingData;
+import ga.dryco.redditJerk.datamodels.ModeratorsData;
+import ga.dryco.redditJerk.datamodels.ModeratorsListing;
+import ga.dryco.redditJerk.datamodels.OverviewData;
+import ga.dryco.redditJerk.datamodels.PostReturn;
+import ga.dryco.redditJerk.datamodels.T1;
+import ga.dryco.redditJerk.datamodels.T1Listing;
+import ga.dryco.redditJerk.datamodels.T2;
+import ga.dryco.redditJerk.datamodels.T3;
+import ga.dryco.redditJerk.datamodels.T3Listing;
+import ga.dryco.redditJerk.datamodels.T5;
+import ga.dryco.redditJerk.datamodels.T5Listing;
+import ga.dryco.redditJerk.datamodels.Thing;
+import ga.dryco.redditJerk.datamodels.Deserializers.OverviewDeserializer;
+import ga.dryco.redditJerk.datamodels.Deserializers.PostReturnDeserializer;
+import ga.dryco.redditJerk.datamodels.Deserializers.T1Deserializer;
+import ga.dryco.redditJerk.datamodels.Deserializers.T1ListingDeserializer;
+import ga.dryco.redditJerk.datamodels.Deserializers.T3Deserializer;
+import ga.dryco.redditJerk.datamodels.Deserializers.ThreadDeserializer;
+import ga.dryco.redditJerk.exceptions.RedditJerkException;
+import ga.dryco.redditJerk.rest.OAuthClient;
 
 
 /**
